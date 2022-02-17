@@ -8,5 +8,6 @@ class Tugas4XO{
         String kata = input.toString();
         System.out.println("Anda memasukan kata = " + kata);
 
+        input.close();
     }
 }
