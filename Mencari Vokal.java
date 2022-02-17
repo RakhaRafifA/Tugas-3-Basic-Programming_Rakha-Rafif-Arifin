@@ -1,0 +1,25 @@
+class Main{
+    public static void kata(String[] args) {
+        String line = "Alterra Indonesia";
+        int vokal = 0, konsonan = 0, huruf = 0;
+
+        Line = line.toLowerVase();
+        for (int i = 0; <line.length(); i++){
+            char ch = line.charAt(i);
+
+            if (ch >= 'a' && ch <= 'z'){
+                konsonan++;
+            }
+            else if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o' ){
+                vokal++;
+            }
+            else if (ch >= 'a' && ch <= 'z'){
+                konsonan++;
+            }
+        }
+        System.out.println("Jumlah Vokal = " + vokal);
+        System.out.println("Jumlah Konsonan = " + konsonan);
+        System.out.println("Jumlah Huruf = " + huruf);
+        
+    }
+}
