@@ -5,7 +5,7 @@ class Tugas4XO{
 
         Scanner input = new Scanner(System.in);
         System.out.println("Masukan huruf X dan O = ");
-        String kata = input.toString();
+        String kata = input.nextLine();
         System.out.println("Anda memasukan kata = " + kata);
 
         input.close();
