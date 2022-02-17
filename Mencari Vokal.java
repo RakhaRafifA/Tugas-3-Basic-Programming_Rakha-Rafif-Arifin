@@ -7,10 +7,10 @@ class Main{
         for (int i = 0; i < line.length(); i++){
             char ch = line.charAt(i);
 
-            if (ch >= 'a' && ch <= 'z'){
+            for (int j = 0; j < line.length(); j++){
                 huruf++;
             }
-            else if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o' ){
+            if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o' ){
                 vokal++;
             }
             else if (ch >= 'a' && ch <= 'z'){
