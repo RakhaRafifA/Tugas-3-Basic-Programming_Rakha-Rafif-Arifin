@@ -1,5 +1,5 @@
 class Main{
-    public static void kata(String[] args) {
+    public static void main(String[] args) {
         String line = "Alterra Indonesia";
         int vokal = 0, konsonan = 0, huruf = 0;
 
