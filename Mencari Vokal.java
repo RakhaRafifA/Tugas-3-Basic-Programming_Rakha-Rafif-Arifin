@@ -7,15 +7,16 @@ class Main{
         for (int i = 0; i < line.length(); i++){
             char ch = line.charAt(i);
 
-            for (int j = 0; j < line.length(); j++){
-                huruf++;
-            }
             if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o' ){
                 vokal++;
             }
             else if (ch >= 'a' && ch <= 'z'){
                 konsonan++;
             }
+        }
+        
+        for (int j = 0; j < line.length(); j++){
+            huruf++;
         }
         System.out.println("Jumlah Vokal = " + vokal);
         System.out.println("Jumlah Konsonan = " + konsonan);
