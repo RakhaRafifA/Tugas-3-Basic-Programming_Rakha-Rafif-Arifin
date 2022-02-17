@@ -3,8 +3,8 @@ class Main{
         String line = "Alterra Indonesia";
         int vokal = 0, konsonan = 0, huruf = 0;
 
-        Line = line.toLowerVase();
-        for (int i = 0; <line.length(); i++){
+        line = line.toLowerCase();
+        for (int i = 0; i < line.length(); i++){
             char ch = line.charAt(i);
 
             if (ch >= 'a' && ch <= 'z'){
