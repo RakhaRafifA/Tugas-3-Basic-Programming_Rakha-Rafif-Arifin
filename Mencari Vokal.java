@@ -8,7 +8,7 @@ class Main{
             char ch = line.charAt(i);
 
             if (ch >= 'a' && ch <= 'z'){
-                konsonan++;
+                huruf++;
             }
             else if (ch == 'a' || ch == 'i' || ch == 'u' || ch == 'e' || ch == 'o' ){
                 vokal++;
