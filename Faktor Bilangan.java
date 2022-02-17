@@ -8,5 +8,7 @@ class TugasMencariFaktor{
         System.out.println("Masukan Bilangan yang akan di faktorisasi = ");
         bilangan = input.nextInt();
         System.out.println("Bilangan yang akan di faktorisasi = " + bilangan);
+
+        input.close();
     }
 }
