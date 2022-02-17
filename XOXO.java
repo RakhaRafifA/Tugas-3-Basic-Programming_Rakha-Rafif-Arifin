@@ -1,15 +1,14 @@
 import java.util.Scanner;
 
-class Tugas4XO{
+class TugasXOXO{
     public static void main(String[] args){
-        int x, o, lain;
+        String kata;
+        int x = 0, o = 0;
 
         Scanner input = new Scanner(System.in);
         System.out.println("Masukan huruf X dan O = ");
-        String kata = input.nextLine();
+        kata = input.nextLine();
         System.out.println("Anda memasukan kata = " + kata);
-
-        input.close();
 
         kata = kata.toLowerCase();
         for (int i = 0; i < kata.length(); i++){
@@ -21,9 +20,6 @@ class Tugas4XO{
             else if (ch == 'o'){
                 o++;
             }
-            else (ch != 'x' && ch != 'o'){
-                lain++;
-            }
         }
         if (x == o){
             System.out.println("True");
@@ -31,5 +27,7 @@ class Tugas4XO{
         else if (x != o){
             System.out.println("False");
         }
+
+        input.close();
     }
 }
