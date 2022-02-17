@@ -15,7 +15,7 @@ class Main{
             }
         }
         
-        for (int j = 0; j < line.length(); j++){
+        for (int j = 1; j < line.length(); j++){
             huruf++;
         }
         System.out.println("Jumlah Vokal = " + vokal);
